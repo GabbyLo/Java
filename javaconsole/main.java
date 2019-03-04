@@ -7,6 +7,14 @@ class gab{
 		System.out.println("Input a value: ");
 		String avalue=sc.nextLine();
 		objmyclass.thevalue(avalue);
+		if(avalue.equals("GAB LOPEZ"))
+		{
+			System.out.println("correct");
+		}
+		else
+		{
+			System.out.println("error");
+		}
 	}
 }
 
