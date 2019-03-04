@@ -7,7 +7,7 @@ class gab{
 		System.out.println("Input a value: ");
 		String avalue=sc.nextLine();
 		objmyclass.thevalue(avalue);
-		if(avalue.equals("GAB LOPEZ"))
+		if(avalue.equals("Computer"))
 		{
 			System.out.println("correct");
 		}
