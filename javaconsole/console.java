@@ -1,15 +1,24 @@
+import java.util.Scanner;
 
 class mainconsole{
 
 	public static void main(String[] args) {
-		System.out.println("Main Console Test");
-		grade12class objg12class =new grade12class();
-		objg12class.displaymessage();
+		grade12class obj = new grade12class();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a String value: ");
+		String thevalue = sc.nextLine();
+		obj.getvalue(thevalue);
+
 	}
 }
 
 class grade12class
 {
+	
+	public void getvalue(String x)
+	{
+		System.out.println("The value is "+x);
+	}
 	public void displaymessage()
 	{
 		System.out.println("Hello this is a message from grade 12 class");
