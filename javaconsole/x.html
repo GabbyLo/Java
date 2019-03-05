@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="">
+		
+	</style>
+</head>
+<body>
+	<div class="style"></div>
+	<div id="header"></div>
+	<meter min="0" id="lf" max="100" value="0"></meter>
+	<button onclick="plus()">GO</button>
+	<p id="ot">	</p>
+	<script type="text/javascript">
+
+		function plus(){
+		document.getElementById('lf').value+=10;
+		var r=document.getElementById('lf').value;
+		document.getElementById('ot').innerHTML="Life: "+r;
+		}
+	</script>
+</body>
+</html>
