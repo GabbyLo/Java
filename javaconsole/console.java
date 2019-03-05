@@ -24,7 +24,11 @@ class grade12class
 	public void checkaccount(String iusername, String ipassword)
 	{
 		if (username.equals(iusername) && password.equals(ipassword)) {
-			
+			System.out.println("SUCCESS!");
+		}
+		else
+		{
+			System.out.println("LOGIN FAILED");
 		}
 	}
 	public String getusername()
