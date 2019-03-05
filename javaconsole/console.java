@@ -21,6 +21,12 @@ class grade12class
 {
 	private String username ="codeus";
 	private String password ="1234";
+	public void checkaccount(String iusername, String ipassword)
+	{
+		if (username.equals(iusername) && password.equals(ipassword)) {
+			
+		}
+	}
 	public String getusername()
 	{
 		return username;
