@@ -12,6 +12,7 @@ class mainconsole{
 		String xusername=sc.nextLine();
 		System.out.print("Enter Password: ");
 		String xpassword=sc.nextLine();
+		obj.checkaccount(xusername,xpassword);
 
 
 	}
